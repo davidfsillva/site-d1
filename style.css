@@ -264,4 +264,37 @@ iframe {
   .servicos-container, .depoimentos-container, .blog-container {
     flex-direction: column;
   }
+
+}
+
+/* Menu Responsivo */
+@media(max-width: 768px) {
+  nav {
+    padding: 0.5rem 1rem;
+  }
+
+  nav .logo {
+    font-size: 1.5rem;
+  }
+
+  nav .menu {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 1rem;
+    justify-content: flex-start;
+  }
+
+  nav .menu li a {
+    font-size: 0.9rem;
+    padding: 0.5rem;
+  }
+
+  .home-content h1 {
+    font-size: 2rem;
+  }
+
+  .home-content p {
+    font-size: 1rem;
+  }
 }
